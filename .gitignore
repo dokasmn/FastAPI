@@ -1,0 +1,59 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Env
+.env
+venv/
+env/
+ENV/
+.envrc
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# mypy
+.mypy_cache/
+
+# pyre
+.pyre/
+
+# Pytest
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# coverage
+.coverage
+.coverage.*
+*.cover
+*.log
+
+# Flask
+instance/
+*.py[cod]
+*.db
+
+# FastAPI
+# Add any FastAPI specific files or directories you wish to ignore here
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.iml
+*.swp
+*~
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
